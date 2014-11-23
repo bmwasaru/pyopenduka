@@ -14,6 +14,8 @@ python setup.py install
 #### From python interpret
 
 Obtain [Sign Up](http://www.openduka.org/index.php/api/) for an API key. E.g d3@1shturuhe9009090 as API key and seach term 'kenya power'
+
+```
 >> import pyopenduka
 
 >> pyopenduka.get('d3@1shturuhe9009090', 'kenya power')
