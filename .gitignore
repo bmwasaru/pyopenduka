@@ -1,0 +1,7 @@
+.idea
+*.pyc
+*~
+pyopenduka.egg-info/
+build/
+dist/
+env/
