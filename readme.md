@@ -5,9 +5,9 @@
 ```
 $ git clone https://github.com/bmwasaru/pyopenduka.git 
 
-cd pyopenduka
+$ cd pyopenduka
 
-python setup.py install 
+$ python setup.py install 
 
 ```
 
