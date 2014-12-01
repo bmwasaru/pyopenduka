@@ -10,12 +10,7 @@ def request_data(url):
         print e
         sys, exit(1)
 
-    try:
-        data = response.json()
-    except ValueError:
-        raise WrongContent(response=response)
-
-    print data
+    print response
 
 
 def get_name(key, search_term):
@@ -26,7 +21,3 @@ def get_name(key, search_term):
 def get_id(key, entity_id):
     url = 'http://www.openduka.org/index.php/api/entity?key={0}&id={1}'.format(key, entity_id)
     request_data(url)
-
-
-class WrongContent(requests.exceptions.RequestException):
-    """The response has the wrong content."""
