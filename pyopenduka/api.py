@@ -5,7 +5,7 @@ import requests
 
 def request_data(url):
     try:
-        response = requests.get(url)
+        response = requests.get(url).json()
     except requests.exceptions.RequestException as e:
         print e
         sys, exit(1)
