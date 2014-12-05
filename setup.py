@@ -9,6 +9,6 @@ setup(
     version='1.0',
     description='The Open Duka library for python',
     packages=find_packages(exclude=['test']),
-    install_reqs=requirements,
+    install_requires=requirements,
     keywords='open duka library'
 )
