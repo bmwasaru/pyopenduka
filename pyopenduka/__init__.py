@@ -2,4 +2,6 @@
 Pyopenduka Open Duka API library
 """
 
-from api import get_name, get_id
+from client import OpendukaClient
+
+__version__ = "0.2"
