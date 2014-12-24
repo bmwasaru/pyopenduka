@@ -6,7 +6,7 @@ requirements = [str(req.req) for req in install_reqs]
 
 setup(
     name='pyopenduka',
-    version='1.0',
+    version='0.2',
     description='The Open Duka library for python',
     packages=find_packages(exclude=['test']),
     install_requires=requirements,
