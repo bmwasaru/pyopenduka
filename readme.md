@@ -1,4 +1,4 @@
-##Python Library for [Open Duka platform](http://www.openduka.org/)
+##Unofficial Python Library for [Open Duka platform](http://www.openduka.org/)
 
 ###Usage
 
