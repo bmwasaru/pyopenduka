@@ -1,14 +1,14 @@
+import os
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
 
-install_reqs = parse_requirements('requirements.txt')
-requirements = [str(req.req) for req in install_reqs]
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
 
 setup(
-    name='pyopenduka',
-    version='0.2',
-    description='The Open Duka library for python',
+    name='openduka',
+    version='0.1',
+    description='Python library for the OpenDuka platform',
     packages=find_packages(exclude=['test']),
-    install_requires=requirements,
+    install_requires=required,
     keywords='open duka library'
 )
