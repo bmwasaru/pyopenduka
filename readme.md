@@ -16,7 +16,7 @@ $ python setup.py install
 Obtain [Sign Up](http://www.openduka.org/index.php/api/) for an API key. e.g d3@1shturuhe9009090 as API key and seach term 'kenya power'
 
 ```
->> openduka.client import OpendukaClient
+>> from openduka import OpendukaClient
  
 >> entities = OpendukaClient('d3@1shturuhe9009090') 
 
