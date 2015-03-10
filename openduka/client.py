@@ -10,15 +10,8 @@ class OpendukaClient(object):
         """Initialize the client with the provided api key"""
         if api_key:
             self.api_key = api_key
-
-    # @staticmethod
-    # def request_data(self, url):
-    #     try:
-    #         response = requests.get(url).json()
-    #         print response
-    #     except requests.exceptions.RequestException as e:
-    #         print e
-    #         sys, exit(1)
+        else:
+            raise ValueError("API key is required to access the Open Duka API")
 
     def id(self, entity_id):
         url = 'http://www.openduka.org/index.php/api/entity?key={0}&id={1}'.format(self.api_key, entity_id)
