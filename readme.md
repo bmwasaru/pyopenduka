@@ -11,9 +11,11 @@ $ python setup.py install
 
 ```
 
-#### From python interpret
+#### From the python interpreter
 
-Obtain [Sign Up](http://www.openduka.org/index.php/api/) for an API key. e.g d3@1shturuhe9009090 as API key and seach term 'kenya power'
+Obtain [Sign Up](http://www.openduka.org/index.php/api/) for an API key.
+
+e.g d3@1shturuhe9009090 as API key and seach term 'kenya power'
 
 ```
 >> from openduka import OpendukaClient
