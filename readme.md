@@ -1,6 +1,6 @@
-##Unofficial Python Library for [Open Duka platform](http://www.openduka.org/)
+## Unofficial Python Library for [Open Duka platform](http://www.openduka.org/)
 
-###Usage
+### Usage
 
 ```
 $ git clone https://github.com/bmwasaru/pyopenduka.git 
