@@ -1,4 +1,9 @@
-## Unofficial Python Library for [Open Duka platform](http://www.openduka.org/)
+# Unofficial Python Library for [Open Duka platform](http://www.openduka.org/)
+
+## What is OpenDuka
+According to the [Open Institute website](https://openinstitute.com/launching-open-duka-platform/)
+
+Open Duka was conceptualised as a catalytic tool for transparency, accountability and governance. As a tool, Open Duka showcases the power and use of data that is liberated from multiple sources and organised in one platform.
 
 ### Usage
 
